@@ -1,5 +1,9 @@
 # Payment Fraud Detection System
 
+**Author:** Alvaro Martins Alves  
+**Date:** January 15, 2025  
+**Case:** Cloudwalk Software Engineer Assessment
+
 ## Overview
 Real-time payment fraud detection system - Analyzes transaction patterns to prevent fraudulent activities in payment processing.
 

@@ -1,6 +1,10 @@
 # Part 2: Data Analysis
 ## Suspicious Behavior Detection
 
+**Author:** Alvaro Martins Alves  
+**Date:** January 15, 2025  
+**Case:** Cloudwalk Software Engineer Assessment
+
 **This document answers Part 2 of the Cloudwalk case: "Get your hands dirty"**
 
 ### Key Questions Answered:

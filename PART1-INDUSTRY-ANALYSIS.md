@@ -1,6 +1,10 @@
 # Part 1: Industry Analysis
 ## Understanding the Payment Ecosystem
 
+**Author:** Alvaro Martins Alves  
+**Date:** January 15, 2025  
+**Case:** Cloudwalk Software Engineer Assessment
+
 **This document answers Part 1 of the Cloudwalk case: "Understand the Industry"**
 
 ### Key Questions Answered:

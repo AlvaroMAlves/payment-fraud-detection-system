@@ -1,6 +1,10 @@
 # Part 3: Anti-Fraud API Implementation
 ## Real-Time Fraud Detection System
 
+**Author:** Alvaro Martins Alves  
+**Date:** January 15, 2025  
+**Case:** Cloudwalk Software Engineer Assessment
+
 **This document answers Part 3 of the Cloudwalk case: "Solve the problem"**
 
 ### Key Requirements Met:

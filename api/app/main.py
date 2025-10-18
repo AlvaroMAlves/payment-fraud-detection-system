@@ -1,3 +1,12 @@
+"""
+Payment Fraud Detection API
+Author: Alvaro Martins Alves
+Date: January 15, 2025
+Case: Cloudwalk Software Engineer Assessment
+
+Real-time payment fraud detection system based on historical data analysis.
+"""
+
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from datetime import datetime
