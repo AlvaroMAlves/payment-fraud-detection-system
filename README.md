@@ -35,7 +35,8 @@ This project implements the complete Cloudwalk Software Engineer case solution:
 
 ### 📋 [Part 1: Industry Analysis](PART1-INDUSTRY-ANALYSIS.md)
 **Question**: "Understand the Industry"  
-**Answer**: Complete analysis of payment ecosystem, money flow, and player roles with Brazilian examples.
+**Answer**: Complete analysis of payment ecosystem, money flow, and player roles with Brazilian examples.  
+📄 **[Detailed Analysis](docs/industry-analysis.md)**
 
 ### 📊 [Part 2: Data Analysis](PART2-DATA-ANALYSIS.md)  
 **Question**: "Get your hands dirty"  
@@ -77,8 +78,28 @@ pip install -r requirements.txt
 
 ### 2. Run Data Analysis
 ```bash
+# Install Jupyter and dependencies
+pip install -r requirements.txt
+
+# Start Jupyter Notebook
+jupyter notebook
+
+# Then open: analysis/transactional-analysis.ipynb
+# Or run directly:
 jupyter notebook analysis/transactional-analysis.ipynb
 ```
+
+**How to use the notebook:**
+1. **Open**: Click on `transactional-analysis.ipynb` in Jupyter
+2. **Run All**: Go to `Cell` → `Run All` to execute all analysis
+3. **Interactive**: Each cell can be run individually with `Shift + Enter`
+4. **Visualizations**: Charts and graphs will appear inline
+5. **Results**: All findings and conclusions are in markdown cells
+
+**Troubleshooting:**
+- **Data not found**: Make sure `data/transactional-sample.csv` exists
+- **Import errors**: Run `pip install pandas matplotlib seaborn jupyter`
+- **Kernel issues**: Restart kernel in Jupyter (`Kernel` → `Restart`)
 
 ### 3. Start Anti-Fraud API
 ```bash

@@ -9,7 +9,7 @@
 - How do chargebacks relate to fraud?
 
 ### Main Document:
-📄 **[industry-analysis.md](docs/industry-analysis.md)** - Complete industry analysis with Brazilian examples
+📄 **[docs/industry-analysis.md](docs/industry-analysis.md)** - Complete industry analysis with Brazilian examples
 
 ### Key Insights:
 - **Money Flow**: Customer → Merchant → Payment Gateway → Acquirer → Card Network → Issuer
