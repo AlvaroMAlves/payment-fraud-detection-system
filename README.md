@@ -1,26 +1,51 @@
 # Payment Fraud Detection System
 
 ## Overview
-Real-time payment fraud detection system with machine learning - Analyzes transaction patterns to prevent fraudulent activities in payment processing.
+Real-time payment fraud detection system - Analyzes transaction patterns to prevent fraudulent activities in payment processing.
 
 ## Project Structure
 ```
 payment-fraud-detection-system/
-├── docs/                        # Documentation
-│   └── industry-analysis.md     # Payment industry analysis
-├── analysis/                    # Data analysis
-│   ├── transactional-analysis.ipynb
-│   └── analyze_transactions.py
+├── PART1-INDUSTRY-ANALYSIS.md   # 📋 Part 1: Industry Understanding
+├── PART2-DATA-ANALYSIS.md       # 📊 Part 2: Data Analysis
+├── PART3-API-IMPLEMENTATION.md  # 🚀 Part 3: API Implementation
+├── README.md                    # 📖 Project Overview
+├── 
+├── docs/
+│   └── industry-analysis.md     # Detailed industry analysis
+├── analysis/
+│   └── transactional-analysis.ipynb  # Interactive data analysis
 ├── api/                         # Anti-fraud API
 │   ├── app/
+│   │   ├── main.py             # FastAPI implementation
 │   │   ├── models/
 │   │   ├── rules/
 │   │   └── database/
-│   └── tests/
-├── data/                        # Sample data
-│   └── transactional-sample.csv
-└── requirements.txt
+│   ├── tests/
+│   │   └── test_api.py         # Automated tests
+│   └── requirements.txt        # API dependencies
+├── data/
+│   └── transactional-sample.csv # Sample transaction data
+└── requirements.txt            # Analysis dependencies
 ```
+
+## Case Solution Overview
+
+This project implements the complete Cloudwalk Software Engineer case solution:
+
+### 📋 [Part 1: Industry Analysis](PART1-INDUSTRY-ANALYSIS.md)
+**Question**: "Understand the Industry"  
+**Answer**: Complete analysis of payment ecosystem, money flow, and player roles with Brazilian examples.
+
+### 📊 [Part 2: Data Analysis](PART2-DATA-ANALYSIS.md)  
+**Question**: "Get your hands dirty"  
+**Answer**: Interactive analysis identifying suspicious patterns and fraud indicators from 3,199 transactions.
+
+### 🚀 [Part 3: API Implementation](PART3-API-IMPLEMENTATION.md)
+**Question**: "Solve the problem"  
+**Answer**: Production-ready anti-fraud API with hybrid rule-based + score-based detection.
+
+---
 
 ## Key Findings
 Based on analysis of 3,199 transactions from November-December 2019:
@@ -99,7 +124,8 @@ The API provides a single endpoint `/fraud-check` that receives transaction data
   "recommendation": "approve",
   "risk_score": 0.3,
   "rules_triggered": ["high_value_check"],
-  "processing_time_ms": 45
+  "processing_time_ms": 45,
+  "explanation": "High-value transaction: R$ 373.00"
 }
 ```
 
@@ -113,7 +139,7 @@ The current system has critical vulnerabilities requiring immediate anti-fraud i
 
 ## Technology Stack
 - **Backend**: FastAPI (Python)
-- **Database**: SQLite (development) / PostgreSQL (production)
+- **Data Processing**: Pandas (in-memory analysis)
 - **Analysis**: Pandas, NumPy, Matplotlib, Seaborn
 - **Testing**: Pytest
 - **Documentation**: Jupyter Notebooks, Markdown
