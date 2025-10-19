@@ -169,12 +169,5 @@ The current system has critical vulnerabilities requiring immediate anti-fraud i
 - **Testing**: Pytest
 - **Documentation**: Jupyter Notebooks, Markdown
 
-## Contributing
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests
-5. Submit a pull request
-
 ## License
 This project is part of the Cloudwalk Software Engineer assessment case.
